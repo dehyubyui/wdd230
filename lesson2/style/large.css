@@ -1,0 +1,106 @@
+/*Lesson 2 - Ben Diaz - CSS-desktop view*/
+
+* {
+    font-family: 'Gugi', sans-serif;
+}
+
+html {
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    height: auto;
+    margin: 5%;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(46, 120, 139);
+    border-radius: 0 0 10px 10px;
+    color: white;
+    padding: 1em;
+}
+h1 {
+    margin-bottom: 0.25em;
+}
+header > span {
+    font-size: medium;
+    color: lightblue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    width: 95%;
+    margin: 20px auto;
+}
+section {
+    border-radius: 10px;
+    background-color: white;
+    border: solid 1px gray;
+    overflow: hidden;
+}
+section * {
+    font-family: 'Ubuntu', sans-serif;
+}
+h3 {
+    margin: 0;
+    font-family: 'Gugi', sans-serif;
+    padding: 10px;
+    /* text-align: center; */
+    background: rgb(46, 120, 139);
+    color: white;
+}
+section > div {
+    padding: 0 10px;
+}
+section > div > span {
+    display: block;
+}
+section > div > * {
+    font-size: 15px;
+}
+section img {
+    width: calc(100% - 2px);
+    display: block;
+    margin: 0 auto;
+    border: solid 1px gray;
+    max-width: 320px;
+}
+
+footer {
+    background-color: rgb(46, 120, 139);
+    position: relative;
+    color: white;
+    padding: 0.75em;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 10;
+}
+.yellow-text-footer {
+    color:yellow;
+    margin-block: 5px;
+}
+footer a {
+    color: white;
+    text-decoration: underline lightblue;
+    transition: color 0.5s, text-shadow 0.5s;
+}
+footer a:hover {
+    color: lightgreen;
+    text-shadow: 1px 1px 10px lightblue;
+}
+#lst-updt {
+    padding-top: 5px;
+    display: block;
+    font-size: small;
+    color: lightblue;
+}
