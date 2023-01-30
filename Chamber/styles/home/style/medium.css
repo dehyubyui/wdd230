@@ -1,0 +1,100 @@
+@media only screen and (min-width: 36em) {
+    nav ul, nav ul.primaryNav {
+        display: flex;
+}
+    nav ul li {
+        flex: 1 1 100%;
+}
+    nav button {
+        display: none;
+}
+    .hero-img {
+        margin: 10px auto;
+        position: relative;
+}
+    .hero-content {
+        position: relative;
+        margin: 10px auto;
+        width: auto;
+}
+   .weathersummary {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;  
+}
+    .article-container {
+        padding-left: 8rem;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        border: 5px solid #000;
+}
+    .article-title {
+        text-align: center;
+}
+    .article-content {
+        grid-column: 1;
+}
+    .articleimg {
+        float: right;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        padding: 15px;
+}
+   .Prestonmap {
+        display:block;
+        float: left;
+        margin-top: 10px;
+}
+   .contact {
+        margin: 10px;
+        padding: 10px;
+        justify-content: right;
+        text-align: center; 
+        border: 5px solid #000;
+}
+   .social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+    img {
+        max-width: 65%;
+        max-height: 100%;
+        display: flex;
+}
+    .gallery {
+        width: 250px; 
+        height: auto; 
+        margin: .5rem;
+}
+    .gallery-view {
+        margin: auto; 
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+    }
+    .town-data > div{
+         margin:auto;
+         width: auto;
+         height: auto;
+         display: grid;
+         text-align: center;
+         background-color:#153F65;
+         border: 5px solid #000;
+     }
+    div.town-data img {
+         padding-top: 5px;
+         width: auto;
+         height: auto;
+         margin: auto;
+     }
+     div.town-data:nth-child(even) {
+         flex-direction: row-reverse;
+         padding-right: 0;
+     }
+     div.town-data:nth-child(even) img {
+         margin: 6px 3px 6px auto;
+     } 
+}

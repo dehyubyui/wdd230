@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Page is the Main Page for the Weather Project">
+    <link rel="stylesheet" href="../Chamber/styles/home/style/normalize.css">
+    <link rel="stylesheet" href="../Chamber/styles/home/style/small.css"/>
+    <link rel="stylesheet" href="../Chamber/styles/home/style/medium.css"/>
+    <link rel="stylesheet" href="../Chamber/styles/home/style/large.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Asul&display=swap" rel="stylesheet">
+    <script defer src="../lesson9/js/date.js"></script>
+    <title>Weather Site Home Page</title>
+</head>
+<body>
+    <aside id="banner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</aside>
+    <header>
+        <img class="logo" src="../Chamber/images/logo.png" alt="Site Logo">
+        <section>
+            <h1>Dry Season Is Sunny In Lieria</h1>
+            <q class="motto">Sunny In Capital City of Liberia During The Dry Season</q>
+        </section>
+    </header>
+        <nav>
+            <button onclick="toggleMenu()"> &#9776; Menu </button> 
+            <ul id ="menu" class="primaryNav">
+                <li class="active"><a href="../Chamber/index.html">Home</a></li>
+                <li><a href="../">Monrovia</a></li>
+                <li><a href="../">Harbel</a></li>
+                <li><a href="../">Bong</a></li>
+                <li><a href="../">Storm Center</a></li>
+                <li><a href="../">Gallery</a></li>
+            </ul>
+        </nav>
+            <section class="hero-content">
+                <div class="hero">
+                    <picture class="hero-picture">
+                        <source srcset="images/home-img-hero-2.jpg"
+                            media="(min-width:36rem) and (max-width:64rem)">
+                        <source srcset="images/home-img-hero-3.jpg" media="(min-width:64rem)">
+                        <img class="hero-img" src="../Chamber/images/SunnyMonrovia.jpg" alt="Part of Monrovia">
+                    </picture>
+                </div>
+                    </section>
+<main>                           
+    <div class="town-data"></div>
+    <div class="events"></div>
+<div class="article-container">
+    <h4 class="article-title">Liberia tapper at firestone rubber Stock</h4>
+    <p class="article-content">
+        Firestone Liberia is the largest rubber plantation in Liberia west Africa.
+        As seen in the photo, this man is getting the rubber liquid from the tree which he has tapped for the day
+        Most Liberian find job opportunity here and their children get free education from the company and this company is one of 
+        the major exportors of rubber in West Africa and they use the farmington river for electrical purposes and several fish ponds.
+    </p>
+    <img class="articleimg" src="../Chamber/images/tapingrubber.jfif" alt="Man Tapping Rubber">
+</div> 
+<div class="information">
+    <img class="Prestonmap" src="../Chamber/images/FIRESTONEMAP.png" alt="Map of Firestone">
+<div class="contact">
+    <h4>Sunny Dry Season In Liberia</h4>
+        <p> &#128205; Monrovia, Liberia West Africa<br>
+            &#9742; (231) 770-210-076<br>
+            &#9993; dehyucassell@gmail.com</p><br>
+                <div class ="social">
+                    <a href ="https://www.facebook.com">
+                    <img src="../Chamber/images/facebookicon.png" alt="Facebook Icon"></a>
+                    <a href ="https://www.instagram.com">
+                    <img src="../Chamber/images/instagramicon.png" alt="Instagram Icon"></a>
+                    <a href ="https://www.twitter.com">
+                    <img src="../Chamber/images/twittericon.png" alt="Twitter Icon"></a>
+                    <a href ="https://www.pinterest.com">
+                    <img src="../Chamber/images/pinteresticon.png" alt="Pinterest Icon"></a>
+                    <a href ="https://www.youtube.com">
+                    <img src="../Chamber/images/youtubeicon.png" alt="Youtube Icon"></a>
+                    <a href ="https://www.googleplus.com">
+                    <img src="../Chamber/images/googleplusicon.png" alt="GooglePlus Icon"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer><p>&copy;<span id="copyrightyear"></span> Weather In Liberia | Attributions | Dehyu DM Cassell</p>
+            <span id="currentDate"></span>
+</footer>
+<script src="../Chamber/styles/home/scripts/menu.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="../Chamber/styles/home/scripts/banner.js"></script>
+<script src="../Chamber/styles/home/scripts/webfont.js"></script>
+<script src="../Chamber/styles/home/scripts/teowdata.js"></script>
+</body>
+</html>
