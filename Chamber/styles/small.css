@@ -1,21 +1,21 @@
 main {
     margin: 0.5em;
     padding: 0.5rem;
-    background-color:#C3CAD0;;
+    background-color: lightskyblue;
 }
 #banner {
     display: none;
     align-items: center;
     justify-content: center;
     padding: .5em;
-    background-color: #ffa700;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: bisque;
     font-family:'Asul', sans-serif;
 }
 header {
     text-align: center;
-    background-color:#153F65;
-    font-family:'Berkshire Swash', cursive;
+    background-color: lightseagreen;
+    font-family:'Roboto';
     max-width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -40,19 +40,19 @@ img {
 h1 {
     font-size: 2rem;
     margin: auto;
-    color:#FFCF3D;
-    font-family:'Berkshire Swash', cursive;
+    color: whitesmoke;
+    font-family:'Roboto', cursive;
     margin-top: 4%;
     text-align: center;
 }
 h2, h3 {
     font-family:'Berkshire Swash', cursive;
-    color:#003E1F;
+    color: sandybrown;
     text-align:center;
 }
 h4, h5 {
     font-family:'Berkshire Swash', cursive;
-    color:#FFCF3D;
+    color: whitesmoke;
     text-align:center;
 }
 h2 {
@@ -88,13 +88,13 @@ a {
     text-align: center;   
 }
 button {
-    background-color:#003E1F;
+    background-color: skyblue;
     color:#00F57A;
     font-size: 1rem;
     font-family:'Asul', sans-serif;
 }
 nav {
-	background-color:#003E1F;
+	background-color: skyblue;
     font-size: 1rem;
     color:#00F57A;
 	text-align: center;
@@ -116,7 +116,7 @@ nav ul.primaryNav {
     background-color:rgba(214, 128, 15, 0.486);
 }
 nav ul li a {
-    color:#FFCF3D;
+    color: sandybrown;
 	display: grid;
 	text-align: center;
 	padding: 0.75rem;
@@ -128,8 +128,8 @@ nav a:link, nav a:visited {
     color:whitesmoke;
 }
 nav a:hover {
-    background-color:#FFCF3D;
-    color:#153F65;
+    background-color: whitesmoke;
+    color: skyblue;
 }
 nav ul {
     list-style-type: none;
@@ -154,9 +154,9 @@ nav ul {
     left: 10px;
     margin-right: 10px;
     padding: 0.5rem;
-    background: radial-gradient(#153F65,#eee);
-    border: 2px solid black;
-    box-shadow: 0 0 30px rgba(128, 128, 128, 0.582);
+    background: radial-gradient lightsalmon;
+    border: 2px solid salmon;
+    box-shadow: 0 0 30px lightseagreen;
     opacity: .9;
 }
 .weathersummary h2{
@@ -180,14 +180,14 @@ nav ul {
     display: flex;
     flex-flow: row wrap;
     margin: 50px;
-    border: 5px solid black;
+    border: 5px solid salmon;
     padding-left: 150px;
    
-    background-color: #153F65;
+    background-color: lightseagreen;
     color: whitesmoke;
 }
  .flex-col {
-    border: 2px solid black;
+    border: 2px solid salmon;
     text-align: center;
 }
  .flex-col:hover {
@@ -200,7 +200,7 @@ nav ul {
     padding: 10px;
     text-align: center;
     font-size: 1rem;
-    background-color: #003E1F;
+    background-color: skyblue;
     color: whitesmoke;
 }
 .data {
@@ -219,8 +219,8 @@ nav ul {
 .article-container {
     display: flex;
     margin: 10px auto;
-    border: 1px solid #000;
-    background-color:#153F65;
+    border: 1px solid salmon;
+    background-color: lightseagreen;
     padding: 15px;
 }
  *{
@@ -229,11 +229,11 @@ nav ul {
     line-height: 1.1em;
 }
 .contact{
-	background-color:#153F65; 
+	background-color: lightseagreen; 
 }
 footer {
-    background-color:#153F65;
-    color:#FFCF3D;
+    background-color: lightseagreen;
+    color: whitesmoke;
     padding: 1rem;
     text-align:center;
     margin: 0.5rem;

@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/wdd130cassell/cse121b/blob/master/weather/data/towndata.json';
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 fetch(requestURL)
 var townArray = [];
 function Town(rainfall,
@@ -64,17 +64,17 @@ fetch(requestURL)
     var townArray = {};
     var eventList = [];
     for (let i = 0; i < towns.length; i++ ) {
-        if(towns[i].name == "BongCounty") {
+        if(towns[i].name == "Fish Haven") {
             eventList = getList(towns[i].events);
-            var BongCounty = new Town(
+            var fishHaven = new Town(
                                 towns[i].averageRainfall,
                                 towns[i].currentPopulation,
                                 eventList, towns[i].motto,
                                 towns[i].name, towns[i].photo,
                                 towns[i].yearFounded,                                  
                                 )
-            townArray["BongCounty"]= fishHaven;
-        } else if(towns[i].name == "Monrovia") {
+            townArray["fishHaven"]= fishHaven;
+        } else if(towns[i].name == "Preston") {
             eventList = getList(towns[i].events);
             var preston = new Town(
                                 towns[i].averageRainfall,
@@ -83,50 +83,50 @@ fetch(requestURL)
                                 towns[i].name, towns[i].photo,
                                 towns[i].yearFounded,                                  
                                 )            
-            townArray["Monrovia"]= Monrovia;
-        } else if(towns[i].name == "Harbel") {
+            townArray["preston"]= preston;
+        } else if(towns[i].name == "Soda Springs") {
             eventList = getList(towns[i].events);
-            var Harbel = new Town(
+            var sodaSprings = new Town(
                                 towns[i].averageRainfall,
                                 towns[i].currentPopulation,
                                 eventList,
                                 towns[i].motto, towns[i].name,                      
                                 towns[i].photo, towns[i].yearFounded,                                  
                                 )            
-            townArray["Harbel"]= Harbrl;
+            townArray["sodaSprings"]= sodaSprings;
         }   
       }
-      buildTownStructure(".town-data",townArray["Monrovia"]);
-      buildTownStructure(".town-data",townArray["Harbel"]);
-      buildTownStructure(".town-data",townArray["Bong"]);
+      buildTownStructure(".town-data",townArray["preston"]);
+      buildTownStructure(".town-data",townArray["sodaSprings"]);
+      buildTownStructure(".town-data",townArray["fishHaven"]);
       let eventSection = document.querySelector(".events");
-      let monroviaEvents = document.createElement("div");
-      monroviaEvents.appendChild(document.createElement("h4"));
-      monroviaEvents.querySelector("h4").textContent = "Monrovia";
-      townArray["Monrovia"].events.forEach(event => {
+      let prestonEvents = document.createElement("div");
+      prestonEvents.appendChild(document.createElement("h4"));
+      prestonEvents.querySelector("h4").textContent = "Preston";
+      townArray["preston"].events.forEach(event => {
         let eventContent = document.createElement("p")
         eventContent.textContent = event;
-        monroviaEvents.appendChild(eventContent);
+        prestonEvents.appendChild(eventContent);
       });
 
-      eventSection.appendChild(monroviaEvents);
-      let harbelEvents = document.createElement("div");
-      harbelEvents.appendChild(document.createElement("h4"));
-      harbelEvents.querySelector("h4").textContent = "Harbel";
-      townArray["Harbel"].events.forEach(event => {
+      eventSection.appendChild(prestonEvents);
+      let sodaSpringsEvents = document.createElement("div");
+      sodaSpringsEvents.appendChild(document.createElement("h4"));
+      sodaSpringsEvents.querySelector("h4").textContent = "Soda Spring";
+      townArray["sodaSprings"].events.forEach(event => {
         let eventContent = document.createElement("p")
         eventContent.textContent = event;
-        harbelEvents.appendChild(eventContent);
+        sodaSpringsEvents.appendChild(eventContent);
       });      
 
-      eventSection.appendChild(HarbelEvents);      
+      eventSection.appendChild(sodaSpringsEvents);      
       let fishHavenEvents = document.createElement("div");
-      BongCountyEvents.appendChild(document.createElement("h4"));
-      BongCountyEvents.querySelector("h4").textContent = "Bong County";
-      townArray["BongCounty"].events.forEach(event => {
+      fishHavenEvents.appendChild(document.createElement("h4"));
+      fishHavenEvents.querySelector("h4").textContent = "Fish Haven";
+      townArray["fishHaven"].events.forEach(event => {
         let eventContent = document.createElement("p")
         eventContent.textContent = event;
-        bongCountyEvents.appendChild(eventContent);
+        fishHavenEvents.appendChild(eventContent);
       });           
-      eventSection.appendChild(bongcountyEvents);
+      eventSection.appendChild(fishHavenEvents);
   });
