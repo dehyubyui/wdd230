@@ -113,7 +113,7 @@ nav ul.primaryNav {
     display:flex;
 }
 .active {
-    background-color:rgba(214, 128, 15, 0.486);
+    background-color: skyblue;
 }
 nav ul li a {
     color: whitesmoke;
