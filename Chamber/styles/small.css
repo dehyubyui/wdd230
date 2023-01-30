@@ -33,7 +33,7 @@ img {
     max-height: 100%;
     display: flex;
 }
-.Prestonmap{
+.MonroviaMap{
     max-width: 33%;
     padding-left: 150px;
 }
@@ -238,4 +238,6 @@ footer {
     text-align:center;
     margin: 0.5rem;
     max-width: 100%;
+    border-radius: 100px;
+    border: 2px solid salmon;
 }
