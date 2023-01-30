@@ -8,7 +8,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: .5em;
-    background-color: whitesmoke;
+    background-color: skyblue;
     color: bisque;
     font-family:'Asul', sans-serif;
 }
@@ -116,7 +116,7 @@ nav ul.primaryNav {
     background-color:rgba(214, 128, 15, 0.486);
 }
 nav ul li a {
-    color: sandybrown;
+    color: whitesmoke;
 	display: grid;
 	text-align: center;
 	padding: 0.75rem;
