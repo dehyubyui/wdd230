@@ -74,5 +74,13 @@ if (document.getElementById("monrovia")) {
 } else if (document.getEmenentById("Bongcounty")) {
     townName = "Bong County";
 }
-
+      let eventSection = document.querySelector("events");
+      let monroviaEvents = document.createElement("div");
+      monroviaEvents.appendChild(document.createElement("h4"));
+      monroviaEvents.querySelector("h4").textContent = "Monrovia";
+      townArray["Monrovia"].events.forEach(event => {
+        let eventContent = document.createElement("p")
+        eventContent.textContent = event;
+        monroviaEvents.appendChild(eventContent);
+      })
 })
