@@ -1,7 +1,7 @@
 main {
     margin: 0.5em;
     padding: 0.5rem;
-    background-color:#C3CAD0;;
+    background-color: lightskyblue;;
 }
 #banner {
     display: none;
@@ -49,7 +49,7 @@ h1 {
 }
 h2, h3 {
     font-family:'Berkshire Swash', cursive;
-    color:#003E1F;
+    color: lightcoral;
     text-align:center;
 }
 h4, h5 {

@@ -34,6 +34,6 @@
          grid-template-columns: 1fr 1fr 1fr;
     }
     .gallery:hover {
-        box-shadow: 0 0 50px rgb(8, 228, 19);
+        box-shadow: 0 0 50px burlywood;
     }
 }
