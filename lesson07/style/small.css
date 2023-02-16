@@ -8,13 +8,13 @@ main {
     align-items: center;
     justify-content: center;
     padding: .5em;
-    background-color: #ffa700;
+    background-color: whitesmoke;
     color: whitesmoke;
     font-family:'Asul', sans-serif;
 }
 header {
     text-align: center;
-    background-color:#153F65;
+    background-color: lightseagreen;
     font-family:'Berkshire Swash', cursive;
     max-width: 100%;
     padding-top: 5px;
@@ -42,14 +42,14 @@ header img {
 h1 {
     font-size: 2rem;
     margin: auto;
-    color:#FFCF3D;
+    color: whitesmoke;
     font-family:'Berkshire Swash', cursive;
     margin-top: 4%;
     text-align: center;
 }
 h2, h3 {
     font-family:'Berkshire Swash', cursive;
-    color: lightcoral;
+    color: sandybrown;
     text-align:center;
 }
 h4, h5 {
@@ -96,7 +96,7 @@ button {
     font-family:'Asul', sans-serif;
 }
 nav {
-	background-color:#003E1F;
+	background-color: lightskyblue;
     font-size: 1rem;
     color:#00F57A;
 	text-align: center;
@@ -106,7 +106,7 @@ nav {
 nav button {
     margin: 0.5rem 5%;
     font-size: 1rem;
-    background-color:#003E1F;
+    background-color: lightskyblue;
     color:#00F57A;
     border: none;
     font-family: 'Asul', sans-serif;
@@ -115,7 +115,7 @@ nav ul.primaryNav {
     display:none;
 }
 .active {
-    background-color:rgba(214, 128, 15, 0.486);
+    background-color: lightskyblue;
 }
 nav ul li a {
     color:#FFCF3D;
@@ -131,8 +131,8 @@ nav a:link, nav a:visited {
     color:whitesmoke;
 }
 nav a:hover {
-    background-color:#FFCF3D;
-    color:#153F65;
+    background-color: whitesmoke;
+    color:lightskyblue;
 }
 nav ul {
     list-style-type: none;
@@ -245,12 +245,14 @@ ul {
    justify-content: center;
 }
 footer {
-    background-color:#153F65;
-    color:#FFCF3D;
+    background-color: lightseagreen;
+    color: whitesmoke;
     padding: 1rem;
     text-align:center;
     margin: 0.5rem;
     max-width: 100%;
+    border-radius: 100px;
+    border: 2px solid salmon;
 }
 .gallery {
     display: block;
@@ -269,6 +271,7 @@ img[data-src] {
     transition: filter 1.5s;
     display: block;
     margin: auto;
+    opacity: 1;
 }
 .figure {
     margin: auto;
