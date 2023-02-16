@@ -3,7 +3,7 @@ img[data-src] {
 }
 img {
     filter: blur(0em);
-    transition: filter 1.5s;
+    transition: filter 2s;
     display: block;
     margin: auto;
     border-radius: 20px;
