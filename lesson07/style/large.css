@@ -31,9 +31,12 @@
         max-width: 1050px;
     }
     .gallery-view {
-         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     .gallery:hover {
         box-shadow: 0 0 50px white;
+        z-index: 1;
+        transform: scale(1.25);
+        box-shadow: 0 25px 40px rgba(0, 0, 0, .5);
     }
 }
