@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Gallery Page will display the weather images for the site">
+    <link rel="stylesheet" href="../lesson07/style/noemalize.css">
+    <link rel="stylesheet" href="../lesson07/style/small.css"/>
+    <link rel="stylesheet" href="../lesson07/style/medium.css"/>
+    <link rel="stylesheet" href="../lesson07/style/large.css"/>
+    <link rel="stylesheet" href="../lesson07/style/lazyload.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Asul&display=swap" rel="stylesheet">
+    <script defer src="../lesson7/js/date.js"></script>
+    <title>The Gallery Page</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="../Chamber/images/logo.png" alt="Site Logo">
+        <section>
+            <h1>Always Sunny in Preston</h1>
+            <q class="motto">Always Sunny in Preston, ain't no better place</q>
+        </section>
+    </header>
+        <nav>
+            <button onclick="toggleMenu()"> &#9776; Menu </button> 
+            <ul id ="menu" class="primaryNav">
+                <li><a href="../Chamber/index.html">Home</a></li>
+                <li><a href="../Chamber/monrovia.html"> Monrovia </a></li>
+                <li><a href="../Chamber/harbel.html">Harbel</a></li>
+                <li><a href="../Chamber/Bong.html">Bong County</a></li>
+                <li><a href="">Storm Center</a></li>
+                <li class="active"><a href="../Chamber/discovery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>The Gallery Page</h2>
+            <div class="gallery-view">
+                <figure><img class="gallery" src="../Chamber/images/firestonerubber.JPG" data-src="../Chamber/images/firestonerubber.JPG" alt="Firestone Rubber Farm">
+                    <figcaption>Firestone Rubber Farm</figcaption>
+                </figure>
+                <figure><img class="gallery" src="../Chamber/images/waterfallkp.jpg" data-src="../Chamber/images/waterfallkp.jpg" alt="Kpatawee Water Fall">
+                    <figcaption>Kpatawee Water Fall</figcaption>
+                </figure>
+                <figure><img class="gallery" src="../Chamber/images/Farmingtonhotel.webp" data-src="../Chamber/images/Farmingtonhotel.webp" alt="Farmingtonhotel">
+                    <figcaption>Farmington Hotel Harbel</figcaption>
+                </figure>
+                <figure><img class="gallery" src="../Chamber/images/executivemassion.jfif" data-src="../Chamber/images/executivemassion.jfif" alt="executivemassion">
+                    <figcaption>Executive Massion Liberia</figcaption>
+                </figure>
+                <figure><img class="gallery" src="../Chamber/images/CityviewMonrovia.jfif" data-src="../Chamber/images/CityviewMonrovia.jfif" alt="CityviewMonrovia">
+                    <figcaption>Crawley's Street Monrovia</figcaption>
+                </figure>
+                <figure><img class="gallery" src="../Chamber/images/DusideHospitalLiberia.png" data-src="../Chamber/images/DusideHospitalLiberia.png" alt="DusideHospitalLiberia">
+                    <figcaption>Duside Hospital Harbel Liberia</figcaption>
+                </figure>
+                <figure><img class="gallery" src="../lesson7/images/placeholder.png" data-src="../lesson7/images/pic7.jpg" alt="choppingwood">
+                    <figcaption>Chopping Wood In Woods</figcaption>
+                </figure>
+                <figure><img class="gallery" src="../lesson7/images/placeholder.png" data-src="../lesson7/images/pic8.jpg" alt="kayakinlake">
+                    <figcaption>Kayaking On The Lake</figcaption>
+                </figure>
+                <figure><img class="gallery" src="../Chamber/images/tapingrubber.jfif" data-src="../Chamber/images/tapingrubber.jfif" alt="snowypath">
+                    <figcaption>Man Tapping Rubber</figcaption>
+                </figure>
+            </div>
+        </main>
+        <footer><p>&copy;<span id="copyrightyear"></span> Sunny side of Monrovia | Attributions | Dehyu DM Cassell</p>
+            <span id="currentDate"></span>
+</footer>
+<script src="../Chamber/scripts/banner.js"></script>
+<script src="../lesson07/script/lazyload.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="../lesson07/script/date.js"></script>
+<script src="../Chamber/scripts/webfont.js"></script>
+<script src="../lesson07/script/menu.js"></script>
+</body>
+</html>
