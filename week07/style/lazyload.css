@@ -1,11 +1,13 @@
 img[data-src] {
-    filter: blur(1em);
+    filter: blur(2em);
 }
 img {
     filter: blur(0em);
     transition: filter 1.5s;
     display: block;
     margin: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
 h1{
     text-align:center;
