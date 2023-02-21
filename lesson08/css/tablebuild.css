@@ -55,4 +55,5 @@ caption {
     width: 225px;
     background-color: #628ca6;
     color: aliceblue;
+    box-shadow: 10px 10px 10px 10px #277e8b;
   }
