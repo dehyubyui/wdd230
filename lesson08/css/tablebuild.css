@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,300&display=swap');
+body {
+    margin: auto;
+    width: auto;
+    padding-top: 10rem;
+}
+table {
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    box-shadow: 8px 8px 8px #628ca6;
+    background-color: #cedad6;
+    margin: auto;
+}
+tbody tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+td, th {
+    padding: 10px 8px;
+}
+thead tr{
+    background-color: #7fb9c2;
+    font-size: 1.5rem;
+}
+tbody th {
+    background-color: #628ca6;
+    color: white;
+    font-size: 16px;
+}
+tbody tr {
+    background-color: #e7ffed;
+}
+tbody tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+.sales-goal {
+    background-color: #628ca6;
+    color: white;
+}
+table tfoot {
+    background-color: #7fb9c2;
+    font-size: 13px;
+    padding: 9px 5px;
+}
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color:#628ca6;
+    font-size: .85rem;
+  }
+
+  header {
+    text-align: center;
+    border: 3px solid brown;
+    margin: auto;
+    width: 225px;
+    background-color: #628ca6;
+    color: aliceblue;
+  }
