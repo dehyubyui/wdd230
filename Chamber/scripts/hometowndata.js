@@ -1,6 +1,9 @@
-const requestURL = 'https://github.com/wdd130cassell/wdd230/blob/master/Chamber/scripts/data/towndata.json'
+const requestURL = 'https://github.com/wdd130cassell/wdd230/blob/master/Chamber/scripts/data/towndata.json';
+
 fetch(requestURL)
+
 var townArray = [];
+
 function Town(rainfall,
                population, events, 
                name, motto, photo, founded
