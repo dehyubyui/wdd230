@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Business</title>
+    <meta name="description" content="Business page for The Ottawa Chamber of Commerce Project">
+    <link rel="shortcut icon" href="../Chamber/images/">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ 
+    <header>
+
+        <div class="headname">
+           <img class="logo" src="../Chamber/images/logo.png" alt="Ottawa Chamber of Commerce">
+           <h1 class="header-title">Chamber of Commerce Business</h1>
+        </div>
+        <div>
+           <button id="hamburguerBtn"><span>&#9776;</span><span>X</span></button>
+        </div>
+        
+		<div class="menu">
+            <nav>
+                <ul id="primaryNav">
+                    <li> <a href="">Home</a></li>
+                    <li> <a href="">Contact</a></li>
+                    <li class="active"><a href="./directory.html">Directory</a></li>
+                    <li> <a href="../Chamber/joinnow.html">Join Now</a></li>
+                    <li> <a href="../Chamber/discovery.html">Gallery</a></li>
+                 </ul>
+               </nav>
+        </div>
+        <div class="date-header">
+            <p id="datetime"></p>
+        </div>          
+    </header>
+           <main class="directory">
+            <h1>Chamber of Commerce Business Directory</h1>
+            <div class="directorymenu">
+              <button id="grid">Grid</button>
+              <button id="list">List</button>
+            </div>
+            <div id="cards" class="cards"></div>
+
+            <div class="contact">
+                <h4>Sunny In Monrovia</h4>
+                    <p> &#128205; Monrovia Liberia<br>
+                        &#9742; (231) 770-210-076<br>
+                        &#9993; dehyucassell@gmail.com</p><br>
+                            <div class ="social">
+                                <a href ="https://www.facebook.com">
+                                <img src="../Chamber/images/facebookicon.png" alt="Facebook Icon"></a>
+                                <a href ="https://www.instagram.com">
+                                <img src="../Chamber/images/instagramicon.png" alt="Instagram Icon"></a>
+                                <a href ="https://www.twitter.com">
+                                <img src="../Chamber/images/twittericon.png" alt="Twitter Icon"></a>
+                                <a href ="https://www.pinterest.com">
+                                <img src="../Chamber/images/pinteresticon.png" alt="Pinterest Icon"></a>
+                                <a href ="https://www.youtube.com">
+                                <img src="../Chamber/images/youtubeicon.png" alt="Youtube Icon"></a>
+                                <a href ="https://www.googleplus.com">
+                                <img src="../Chamber/images/googleplusicon.png" alt="GooglePlus Icon"></a>
+                                </div>
+                            </div>
+                        </div>
+            
+        </main>
+       <footer>
+        <div class="info">  
+            <span>  &nbsp; &nbsp; &copy;<span id="©">
+            </span>  &nbsp; Chamber of Commerce &nbsp;</span> |  &nbsp; Dehyu DM Cassell &nbsp; |  &nbsp; WDD 230 &nbsp;|  &nbsp; Last modification: &nbsp;  &nbsp; <span id="dateMod"></span>
+                    
+            </div>            
+            </footer>
+            <script src="./js/data.js"></script>
+            <script src="./js/directory.js"></script>
+            <script src="./js/inserctionobserver.js"></script>
+            </body>
+        </html>
