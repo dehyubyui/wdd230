@@ -1,9 +1,6 @@
-const requestURL = "../data/data.json";
-
+const requestURL = 'data/data.json';
 fetch(requestURL)
-
 var townArray = [];
-
 function Town(rainfall,
                population, events, 
                name, motto, photo, founded
