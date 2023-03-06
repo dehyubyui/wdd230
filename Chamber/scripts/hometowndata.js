@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/wdd130cassell/wdd230/blob/master/Chamber/scripts/data/towndata.json';
+const requestURL = 
 
 fetch(requestURL)
 
@@ -56,8 +56,8 @@ fetch(requestURL)
                             towns[i].yearfounded,
                             towns[i].name, towns[i].photo,
                             )
-         townArray["Monrovia"] = monrovia;
-     } else if(towns[i].name == "harbel") {
+         townArray["Monrovia"] = Monrovia;
+     } else if(towns[i].name == "Harbel") {
          eventList = getList(towns[i].event);
          var harbel = new Town(
                           towns[i].averageRainfall,
@@ -85,5 +85,26 @@ if (document.getElementById("monrovia")) {
         let eventContent = document.createElement("p")
         eventContent.textContent = event;
         monroviaEvents.appendChild(eventContent);
-      })
+      });
+
+      eventSection.appendChild(monroviaEvents);
+      let harbelevents = document.createElement("div");
+      harbelevents.appendChild(document.createElement("h4"));
+      harbelevents.querySelector("h4").textContent = "Harbel";
+      townArray["harbel"].events.forEach(event => { 
+        let eventContent = document.createElement("p")
+        eventContent.textContent = event;
+        harbelevents.appendChild(eventContent);
+      });
+
+      eventSection.appendChild(harbel);
+      let bongcountyevents = document.createElement("div");
+      bongcountyevents.appendChild(document.createElement(h4));
+      bongcountyevents.querySelector("h4").textContent = "Bong County";
+      townArray["bongCounty"].event.forEach(event => {
+        let eventContent = document.createElement("p")
+        eventContent.textContent = event;
+        bongcountyevents.appendChild(eventContent);
+      });
+      eventSection.appendChild(bongcountyevents)
 })
