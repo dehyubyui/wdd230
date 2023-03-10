@@ -7,7 +7,7 @@ body h1 {
     border-bottom: 2px solid black;
     padding: 15px;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: lightskyblue;
     box-shadow: 0 5px 2px -2px grey;
 }
 
@@ -16,7 +16,7 @@ p {
     padding: 15px;
     border: 2px solid black;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: lightskyblue;
     box-shadow: 0 5px 2px -2px grey;
 }
 
