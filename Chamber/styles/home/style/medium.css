@@ -27,7 +27,7 @@
         padding-left: 8rem;
         display: grid;
         grid-template-columns: 2fr 2fr;
-        border: 5px solid #000;
+        border: 5px solid salmon;
 }
     .article-title {
         text-align: center;
@@ -53,7 +53,7 @@
         padding: 10px;
         justify-content: right;
         text-align: center; 
-        border: 5px solid #000;
+        border: 5px solid salmon;
 }
    .social {
         display: flex;

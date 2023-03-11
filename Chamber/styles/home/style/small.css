@@ -1,7 +1,8 @@
 main {
     margin: 0.5em;
     padding: 0.5rem;
-    background-color:#C3CAD0;
+    background-color:skyblue;
+    
 }
 #banner {
     display: none;
@@ -14,7 +15,7 @@ main {
 }
 header {
     text-align: center;
-    background-color:#153F65;
+    background-color: lightseagreen;
     font-family:'Berkshire Swash', cursive;
     max-width: 100%;
     padding-top: 5px;
@@ -42,7 +43,7 @@ header img {
 h1 {
     font-size: 2rem;
     margin: auto;
-    color:#FFCF3D;
+    color:white;
     font-family:'Berkshire Swash', cursive;
     margin-top: 4%;
     text-align: center;
@@ -54,7 +55,7 @@ h2, h3 {
 }
 h4, h5 {
     font-family:'Berkshire Swash', cursive;
-    color:#FFCF3D;
+    color:white;
     text-align:center;
 }
 h2 {
@@ -96,7 +97,7 @@ button {
     font-family:'Asul', sans-serif;
 }
 nav {
-	background-color:#003E1F;
+	background-color: skyblue;
     font-size: 1rem;
     color:#00F57A;
 	text-align: center;
@@ -106,7 +107,7 @@ nav {
 nav button {
     margin: 0.5rem 5%;
     font-size: 1rem;
-    background-color:#003E1F;
+    background-color: skyblue;
     color:#00F57A;
     border: none;
     font-family: 'Asul', sans-serif;
@@ -115,7 +116,7 @@ nav ul.primaryNav {
     display:none;
 }
 .active {
-    background-color:rgba(214, 128, 15, 0.486);
+    background-color: skyblue;
 }
 nav ul li a {
     color:#FFCF3D;
@@ -131,8 +132,8 @@ nav a:link, nav a:visited {
     color:whitesmoke;
 }
 nav a:hover {
-    background-color:#FFCF3D;
-    color:#153F65;
+    background-color:white;
+    color: skyblue;
 }
 nav ul {
     list-style-type: none;
@@ -163,8 +164,8 @@ ul {
     left: 10px;
     margin-right: 10px;
     padding: 0.5rem;
-    background: radial-gradient(#eee, #153F65);
-    border: 2px solid black;
+    background: lightskyblue;
+    border: 2px solid salmon;
     box-shadow: 0 0 30px rgba(128, 128, 128, 0.582);
     opacity: .9;
 }
@@ -189,14 +190,14 @@ ul {
     display: flex;
     flex-flow: row wrap;
     margin: 50px;
-    border: 5px solid black;
+    border: 5px solid salmon;
     padding-left: 150px;
    
     background-color: #153F65;
     color: whitesmoke;
 }
  .flex-col {
-    border: 2px solid black;
+    border: 2px solid salmon;
     text-align: center;
 }
  .flex-col:hover {
@@ -227,8 +228,8 @@ ul {
 } 
 .article-container {
     margin: 10px auto;
-    border: 1px solid #000;
-    background-color:#153F65;
+    border: 1px solid salmon;
+    background-color: lightseagreen;
     padding: 15px;
 }
  *{
@@ -237,7 +238,7 @@ ul {
     line-height: 1.1em;
 }
 .contact {
-	background-color:#153F65; 
+	background-color: lightseagreen; 
 }
 .social {
     display: flex;
@@ -245,12 +246,14 @@ ul {
    justify-content: center;
 }
 footer {
-    background-color:#153F65;
+    background-color: lightseagreen;
     color:#FFCF3D;
     padding: 1rem;
     text-align:center;
     margin: 0.5rem;
     max-width: 100%;
+    border-radius: 50px;
+    border: salmon solid 3px;
 }
 
 .gallery {
@@ -370,7 +373,7 @@ form input.submitBtn{
          height: auto;
          text-align: center;
          background-color:#153F65;
-         border: 5px solid #000;
+         border: 5px solid salmon;
 }
     div.town-data{
     	text-align: center;
@@ -400,5 +403,57 @@ form input.submitBtn{
     text-align:center;
     margin: 0.5rem;
     max-width: 100%;
-    border: 5px solid #000;
+    border: 5px solid salmon;
+}
+
+.tab3 {
+    background-color: lightseagreen;
+    color: #030061;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 5px grey;
+    border: salmon solid 2px;
+}
+
+.tab3 {
+    text-align: center;
+    color: #030061;
+}
+
+.tab-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.home-grid .tab3 h1 {
+    font-size: 1.5rem;
+}
+
+.tab3 figcaption {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    font-size: 1.25rem;
+}
+
+.tab3 .weather {
+    display: flex;
+}
+
+.tab3 .weather img {
+    margin-left: auto;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.tab3 .weather p {
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2rem;
 }
