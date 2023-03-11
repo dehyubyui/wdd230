@@ -46,7 +46,7 @@ hiddenField.setAttribute("name", "dateTime");
 hiddenField.setAttribute("value", dateTime);
 document.body.appendChild(hiddenField);
 
-// Using an API, gets the weather and temp for Layton City
+// Using an API, gets the weather and temp for Monrovia Liberiia
 
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
