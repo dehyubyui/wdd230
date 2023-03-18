@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce Contact Page</title>
+    <link rel="fonts" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&family=Play:wght@700&family=Source+Sans+Pro&display=swap">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./small.css">
+    <link rel="stylesheet" href="./medium.css">
+    <link rel="stylesheet" href="./large.css">
+    <link rel="icon" href="../Chamber/images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div id="main-header">
+            <a href="index.html" id="logo_link">
+                <img src='../Chamber/images/logo.png' alt='Layton City Chamber logo'>
+                    <h1>Chamber of Commerce
+                    </h1>
+            </a>
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="../Chamber/index.html">Home</a></li>
+                    <li><a href="../Chamber/monrovia.html">Monrovia</a></li>
+                    <li><a href="../Chamber/harbel.html">Harbel</a></li>
+                    <li><a href="../Chamber/Bong.html">Bong County</a></li>
+                    <li><a href="../Chamber/joinnow.html">Join Now</a></li>
+                    <li><a href="../Chamber/discovery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="current-date"></div>
+    </header>
+    <main>
+        <div class="event-tab">
+            <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m</p>
+        </div>
+        <h2 class="contact-banner">Chamber of Commerce Contact Page</h2>
+        <div class="contact">
+            <div class="form">
+                <h2>Reach Us Here</h2>
+                <form method="get" action="request-completed.html">
+                    <fieldset>
+                        <label class="top">First Name *<input type="text" name="fname" required></label>
+                        <label class="top">Last Name *<input type="text" name="lname" required></label>
+                        <label class="top">Email Address *<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+    
+                        <label class="request">Message Here *<textarea name="request"></textarea></label>
+    
+                        <input type="hidden" id="date" name="date" value="CurrentTime"> 
+                        <input type="hidden" id="time" name="time" value="CurrentDate">
+    
+                        <input type="submit" value="Submit" class="submitBtn">
+    
+                    </fieldset>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <div>
+                    <h3>Address</h3>
+                    <p>Harbel Margibi County, Republic of Liberia
+                    </p>
+                    <h3>Phone</h3>
+                    <p>+231 886 999 899</p>
+                    <h3>Email</h3>
+                    <p>casselldehyudm@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="box2">
+            <div id="small"><p>&copy; 2023 - Chamber of Commerce </p> Dehyu DM Cassell </p><p>WDD 230</p></div>
+            <p id="larger">&copy; 2023 - Chamber of Commerce | Dehyu DM Cassell | WDD 230 </p>
+            <span id="CurrentDate"></span>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

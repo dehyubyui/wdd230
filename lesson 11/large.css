@@ -1,0 +1,201 @@
+@media only screen and (min-width: 64em) {
+
+	header, main, footer {
+		align-content: center;
+		margin: 0 auto;
+	}
+
+	#main-header h1 {
+		font-size: 1.75rem;
+	}
+
+	nav button {
+		display: none;
+	}
+
+	nav ul {
+		display: flex;
+		flex: 1;
+		justify-content: space-between;
+	}
+
+	nav ul li a {
+		margin: auto;
+		border-top: none;
+		font-size: 1.75rem;
+	}
+
+	#main-header nav  { 
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		margin: auto;
+	}
+
+	#main-header a { order: 1; }
+	#main-header nav { order: 2;}
+	#main-header div { order: 3;}
+
+	.event-tab p {
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 1.75rem;
+	}
+
+	.home-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+		grid-column-gap: 5px;
+		grid-row-gap: 5px;
+	}
+
+	.tab2 { grid-area: 1 / 1 / 3 / 2; }
+	.tab3 { grid-area: 3 / 1 / 5 / 2; }
+	.tab6 { grid-area: 5 / 1 / 7 / 2; }
+	.tab1 { grid-area: 1 / 2 / 5 / 4; }
+	.tab4 { grid-area: 5 / 2 / 7 / 4; }
+	.tab5 { 
+		grid-area: 1 / 4 / 7 / 5; 
+		display: flex;
+		flex-direction: column;
+	}
+
+	.tab1 img {
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: 25% 0;
+	}
+
+	#sub-tab1, #sub-tab2, #sub-tab3 {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		margin: 0;
+	}
+
+	.tab-img {
+        width: 50%;
+    }
+
+	.tab1 h1  {
+		font-size: 2rem;
+		left: 50px;
+		top: 50px;
+	}
+
+	.tab1 a {
+		font-size: 2rem;
+		right: 50px;
+		bottom: 50px;
+	}
+
+	.tab2 h2, .home-grid .tab3 h2, .tab4 h2, .tab5 h2, .demo-tab h1 {
+        font-size: 2rem;
+    }
+
+	.tab3 figcaption {
+        font-size: 1.75rem;
+    }
+    
+    .tab2 h2, .tab5 h2 {
+        font-size: 1.75rem;
+    }
+
+	.tab3 .weather p {
+		font-size: 3rem;
+		font-weight: bold;
+	}
+
+	.tab6 a {
+		font-size: 2rem;
+	}
+
+	main h1, .table th {
+		font-size: 2rem;
+	}
+
+	main div.form-tab {
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+	}
+
+	main div.form-tab form {
+		width: 50%;
+		margin-left: 20px;
+		margin-right: auto;
+	}
+
+	.thankyou-tab {
+		width: 100%;
+		height: 500px;
+		margin-top: 200px;
+		margin-bottom: 200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.thankyou-tab h1 {
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	.thankyou-tab p {
+		font-size: 1.75rem;
+	}
+
+	main div.form-tab .table {
+		margin: 15px;
+		margin-top: auto;
+		margin-bottom: auto;
+		width: 50%;
+		height: 100%;
+		border: none;
+		box-shadow: none;
+	}
+
+	main div.form-tab .table td, main div.contact div form {
+		font-size: 1.25rem;
+	}
+
+	.form-tab form label, .contact div form label {
+		font-size: 1.5rem;
+	}
+
+	.form-tab form label input, .form-tab form label select, .contact div form label select {
+		font-size: 1.25rem;
+	}
+
+	.contact {
+		display: flex;
+	}
+
+	footer {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	footer #box1 {
+		width: 100%;
+		justify-content: space-between;
+		margin-top: 25px;
+	}
+
+	footer #box1 #sub-box1 {
+		margin-left: 0;
+		margin-right: auto;
+	}
+
+	footer #box1 #sub-box2 {
+		margin-left: auto;
+		margin-right: 0;
+	}
+
+	footer #box2 {
+		display: flex;
+		margin-top: 25px;
+	}
+}
