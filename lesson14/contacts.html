@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Contacts page will contain essential contact information for the site">
+    <link rel="stylesheet" href="../lesson14/css/normalize.css">
+    <link rel="stylesheet" href="../lesson14/css/small.css"/>
+    <link rel="stylesheet" href="../lesson14/css/medum.css"/>
+    <link rel="stylesheet" href="../lesson14/css/large.css"/>
+    <link rel="stylesheet" href="../lesson14/css/lazyload.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Asul&display=swap" rel="stylesheet">
+    <script defer src="../lesson14/js/data.js"></script>
+    <title>Contacts</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="../lesson14/image/chamberlogo.png" alt="Site Logo">
+        <section>
+            <h1>Ocala Community Group Executives</h1>
+            <q class="motto">Growth and Progress</q>
+        </section>
+    </header>
+        <nav>
+            <button onclick="toggleMenu()"> &#9776; Menu </button> 
+            <ul id ="menu" class="primaryNav">
+                <li><a href="../lesson14/services.html">Home</a></li>
+                <li><a href="../lesson14/community.html">Ocala</a></li>
+                <li><a href="../lesson14/growth.html">Join</a></li>
+                <li><a href="../lesson14/business.html">Directory</a></li>
+                <li class="active"><a href="../lesson14/contacts.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Board Members</h2>
+            <div class="board-directors">
+                <figure><img class="board" src="../lesson14/image/placeholder.png" data-src="../lesson14/image/mandell.jpg" alt="mandell">
+                    <figcaption>Chair of the Board</figcaption>
+                </figure>
+                <figure><img class="board" src="../lesson14/image/placeholder.png" data-src="../lesson14/image/hannah.jpg" alt="hannah">
+                    <figcaption>Vice Chair</figcaption>
+                </figure>
+                <figure><img class="board" src="../lesson14/image/placeholder.png" data-src="../lesson14/image/charlie.jpg" alt="charlie">
+                    <figcaption>Executive Chair</figcaption>
+                </figure>
+                <figure><img class="board" src="../lesson14/image/placeholder.png" data-src="../lesson14/image/mark.jpg" alt="mark">
+                    <figcaption>Secretary</figcaption>
+                </figure>
+                <figure><img class="board" src="../lesson14/image/placeholder.png" data-src="../lesson14/image/leo.jpg" alt="leo">
+                    <figcaption>Treasurer</figcaption>
+                </figure>
+            </div>
+            <div class="ocalamap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111477.85093808193!2d-82.22702016638675!3d29.174016980286282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e62b541cba3ce5%3A0xf5f53be4b1380536!2sOcala%2C%20FL!5e0!3m2!1sen!2sus!4v1639527831454!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>"
+            </div>
+        </div>
+        <h3>Contact US</h3>
+        <form action="thanks2.html" method="get" class="forms">
+            <div class="forms">
+              <label for="name">Enter your first name: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="forms">
+              <label for="email">Enter your email: </label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="forms">
+                <label for="phone">Enter your cell phone: </label>
+                <input type="number" name="phone" id="phone">
+              </div>
+              <div class="forms">
+                <input type="submit" value="Contact Us!">
+              </div>
+            </form>
+            <label>Comments:
+                <textarea name="comments" placeholder="My Business is about..." ></textarea>
+                </label>
+            <div class="contact">
+                <h4>Ocala Community Group Executives</h4>
+                    <p> &#128205; 1-99 W Fort King St, Ocala, FL 34471<br>
+                        &#9742; (231) 886 999 899<br>
+                        &#9993; ocala.com</p><br>
+                            <div class ="social">
+                                <a href ="https://www.facebook.com">
+                                <img src="../lesson14/image/facebookicon.png" alt="Facebook Icon"></a>
+                                <a href ="https://www.instagram.com">
+                                <img src="../lesson14/image/instagramicon.png" alt="Instagram Icon"></a>
+                                <a href ="https://www.twitter.com">
+                                <img src="../lesson14/image/twittericon.png" alt="Twitter Icon"></a>
+                                <a href ="https://www.pinterest.com">
+                                <img src="../lesson14/image/pinteresticon.png" alt="Pinterest Icon"></a>
+                                <a href ="https://www.youtube.com">
+                                <img src="../lesson14/image/youtubeicon.png" alt="Youtube Icon"></a>
+                                <a href ="https://www.googleplus.com">
+                                <img src="../lesson14/image/googleplusicon.png" alt="GooglePlus Icon"></a>
+                                </div>
+                            </div>
+                        </div>
+        </main>
+        <footer><p>&copy;<span id="copyrightyear"></span> Ocala Community Group Executives | WDD 230 | Dehyu DM Cassell</p>
+            <span id="currentDate"></span>
+</footer>
+<script src="../lesson14/js/menu.js"></script>
+<script src="../lesson14/js/lazyload.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="../lesson14/js/webfontload.js"></script>
+</body>
+</html>

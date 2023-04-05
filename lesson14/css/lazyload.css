@@ -1,0 +1,12 @@
+img[data-src] {
+    filter: blur(1em)
+}
+img {
+    filter: blur(0em);
+    transition: filter 1.5s;
+    display: block;
+    margin: auto;
+}
+h1{
+    text-align:center;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Join page that contains information about the benefit of joining the chamber and a membership application form.">
+    <link rel="stylesheet" href="../lesson14/css/normalize.css">
+    <link rel="stylesheet" href="../lesson14/css/small.css"/>
+    <link rel="stylesheet" href="../lesson14/css/medum.css"/>
+    <link rel="stylesheet" href="../lesson14/css/large.css"/>
+    <link rel="stylesheet" href="../lesson14/css/forms.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Asul&display=swap" rel="stylesheet">
+    <script defer src="../lesson14/js/data.js"></script>
+    <title>Join Page</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="../lesson14/image/chamberlogo.png " alt="Site Logo">
+        <section>
+            <h1>Ocala Community Group Executives</h1>
+            <q class="motto">Growth and Progress</q>
+        </section>
+    </header>
+        <nav>
+            <button onclick="toggleMenu()"> &#9776; Menu </button> 
+            <ul id ="menu" class="primaryNav">
+                <li><a href="../lesson14/services.html">Home</a></li>
+                <li><a href="../lesson14/community.html">Ocala</a></li>
+                <li class="active"><a href="../lesson14/growth.html">Join</a></li>
+                <li><a href="../lesson14/business.html">Directory</a></li>
+                <li><a href="../lesson14/contacts.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Membership Application Form</h2>
+            <form method="post">
+                <fieldset>
+                  <legend>Title</legend>
+                  <label><input type="radio" name="radio"> Mr</label>
+                  <label><input type="radio" name="radio"> Sir</label>
+                  <label><input type="radio" name="radio"> Mrs</label>
+                  <label><input type="radio" name="radio"> Miss</label>
+                </fieldset>
+              </form>
+            <form action="thanks.html" method="get" class="forms">
+                <div class="forms">
+                  <label for="name">Enter your first name: </label>
+                  <input type="text" name="name" id="name" required>
+                </div>
+                <div class="forms">
+                    <label for="name">Enter your last name: </label>
+                    <input type="text" name="name" id="name" required>
+                  </div>
+                <div class="forms">
+                  <label for="email">Enter your email: </label>
+                  <input type="email" name="email" id="email" required>
+                </div>
+                <div class="forms">
+                    <label for="phone">Enter your cell phone: </label>
+                    <input type="number" name="phone" id="phone">
+                  </div>
+                  <div class="forms">
+                    <label for="name">Enter your business name: </label>
+                    <input type="text" name="name" id="name" required>
+                  </div>
+                  <div class="forms">
+                    <label for="name">Enter your business address: </label>
+                    <input type="text" name="name" id="name">
+                  </div>
+                  <div class="forms">
+                    <label for="name">Enter your business website: </label>
+                    <input type="text" name="name" id="name">
+                  </div>
+                  <div class="forms">
+                    <label for="name">Enter your business description: </label>
+                    <input type="text" name="name" id="name">
+                  </div>
+                  <label>Membership Level Selection
+                    <select name="level">
+                        <option value="" disabled>Enter Level...</option>
+                        <option value="Non-Profit">Non-Profit($100)</option>
+                        <option value="" disabled>Bronze($200)</option>
+                        <option value="" disabled>Silver($400)</option>
+                        <option value="" disabled>Gold($1000)</option>
+                    </select>
+                    </label>
+                <div class="forms">
+                  <input type="submit" value="Subscribe!">
+                </div>
+              </form>
+        </main>
+        <footer><p>&copy;<span id="copyrightyear"></span> Ocala Community Group Executives | WDD 230 | Dehyu DM Cassell</p>
+            <span id="currentDate"></span>
+</footer>
+<script src="../lesson14/js/menu.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="../lesson14/js/webfontload.js"></script>
+</body>
+</html> 

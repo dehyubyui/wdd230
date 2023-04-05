@@ -1,0 +1,126 @@
+main {
+    margin: 0.5em;
+    padding: 0.5rem;
+    background-color: #B7FDFE;
+}
+body {
+    max-width: 960px;
+    font-size: 16px;
+    margin: auto;
+    font-family: 'Asul', sans-serif;
+    text-align:center;
+}
+header {
+    text-align: center;
+    background-color: lightskyblue;
+    font-family:'Arimo', sans-serif;
+    margin: 0.5rem;
+    padding-top: 0.5rem;
+}
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+h1 {
+    font-size: 80px;
+    margin: auto;
+    color:#493B2A;
+}
+h2, h3, h4, h5 {
+    font-family:'Arimo', sans-serif;
+    color:#493B2A;
+    text-align:center;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1rem;
+}
+p {
+    color:#493B2A;
+    font-size: 20px;
+    font-family:'Asul', sans-serif;
+    text-align:center;
+    margin-left:10%;
+    margin-right:10%;
+}
+.colors {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    text-align:center;
+}
+.colors th {
+    background-color:#4D4D4D;
+    color:whitesmoke;
+}
+.colors td {
+    width: 50%;
+    height: 3rem;
+    border: 5px solid black;
+}
+.primary {
+    background-color:#B7FDFE;
+}
+.secondary {
+    background-color:#493B2A;
+}
+.accent1 {
+    background-color:#5EF38C;
+}
+.accent2 {
+    background-color:#2B9720;
+}
+.accent3 {
+    background-color:lightskyblue;
+}
+a {
+    color:black;
+    font-size: 1rem;
+    font-family:'Asul', sans-serif;
+    text-decoration: none;    
+}
+nav {
+	background-color:#493B2A;
+	text-align: center;
+	box-shadow:10px 5px 5px black;
+}
+nav ul li a{
+    background-color: lightskyblue;
+    color:wheat;
+	display: block;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+    font-family: 'Asul', sans-serif;
+}
+nav a:link, nav a:visited {
+    color:black;
+}
+nav a:hover {
+    background-color:lightgreen;
+    color:#493B2A;
+}
+nav ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+footer {
+    background-color:lightskyblue;
+    color: black;
+    padding: 1rem;
+    text-align:center;
+    margin:0.5rem;
+}

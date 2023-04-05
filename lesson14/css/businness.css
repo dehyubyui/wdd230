@@ -1,0 +1,43 @@
+main {
+    text-align: center;
+    padding: auto;
+    background-color: lightskyblue;        
+}
+.cards {
+    display: grid;
+    grid-template-columns: 2fr;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;    
+    grid-gap: 8px;
+    padding: 20px;    
+    border-radius: 5px;
+}
+.cards > section { 
+    padding-top: 10px;
+    background-color: lightskyblue;
+    border-radius: 23px;
+    border: 1px solid #000;
+   }
+
+@media only screen and (min-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 800px;
+        margin: auto;     
+    }
+}
+@media only screen and (min-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1000px;
+        margin: auto;    
+    }
+}
+@media only screen and (min-width: 1250px) {
+    .cards {
+        grid-template-columns: repeat(1fr, 1fr);
+        max-width: 1500px;
+        margin: auto;     
+    }
+}
